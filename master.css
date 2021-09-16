@@ -27,3 +27,13 @@ nav a {
 #mainMenu {
     text-align: right;
 }
+
+body {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+nav li a:hover {
+    background-color: red;
+    color: white;
+}
