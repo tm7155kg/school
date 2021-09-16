@@ -1,0 +1,7 @@
+div, body, footer, header {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    vertical-align: baseline;
+    border: 0px;
+}
