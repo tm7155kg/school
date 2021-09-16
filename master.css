@@ -1,12 +1,29 @@
 div, footer, header {
     margin: 0px;
     padding: 0px;
-    font-size: 0px;
+    font-size: 100%;
     vertical-align: baseline;
     border: 0px;
 }
 
-nav, ul, li {
+nav, ul, li, footer, header, article, section, figure, figcaption, h1, h2, h3, ul, li {
     list-style-type: none;
     display: inline;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav {
+    padding: 0.25em;
+}
+
+nav a {
+    padding: 0.25em;
+}
+
+#mainMenu {
+    text-align: right;
 }
